@@ -1,0 +1,75 @@
+.section_content{
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-40%);
+	position: fixed;
+}
+.main_container{
+	position: absolute; 
+	width: 900px; 
+	height: 700px; 
+	background-color: white; 
+	border-radius: 23px; 
+	top: 50%; 
+	left: 50%; 
+	transform: translate(-50%,-50%); 
+	z-index: 99;
+}
+.input_price{
+	width: 320px;
+	height: 35px;
+	border-radius: 10px;
+	border: 1px solid #7500E1;
+	outline: none!important;
+	padding-left: 25px;
+	font-size: 18px;
+}
+.input_button{
+	width: 320px;
+	height: 40px;
+	border-radius: 10px;
+	border: 1px solid #7500E1;
+	background-color: #7500E1;
+	outline: none!important;
+	padding-left: 10px;
+	font-size: 18px;
+	cursor: pointer;
+	color: white;
+	font-weight: 500;
+	margin-top: 10px;
+}
+@media screen and (max-width: 915px){
+	.main_container{
+		width: 800px;
+	}
+}
+@media screen and (max-width: 815px){
+	.main_container{
+		width: 700px;
+	}
+}
+@media screen and (max-width: 715px){
+	.main_container{
+		width: 600px;
+	}
+}
+@media screen and (max-width: 615px){
+	.main_container{
+		width: 500px;
+	}
+}
+@media screen and (max-width: 515px){
+	.main_container{
+		width: 400px;
+	}
+}
+@media screen and (max-width: 415px){
+	.main_container{
+		width: 380px;
+	}
+}
+@media screen and (max-width: 385px){
+	.main_container{
+		width: 340px;
+	}
+}
